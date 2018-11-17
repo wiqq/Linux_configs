@@ -1,0 +1,62 @@
+% egrep -v '^#' .ncmpcpp/config
+mpd_music_dir = "/home/wiqq/music/"
+visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_output_name = "my_fifo"
+visualizer_sync_interval = "30"
+visualizer_type = "spectrum"
+visualizer_look = "◆▋"
+message_delay_time = "3"
+playlist_shorten_total_times = "yes"
+playlist_display_mode = "columns"
+browser_display_mode = "columns"
+search_engine_display_mode = "columns"
+playlist_editor_display_mode = "columns"
+autocenter_mode = "yes"
+centered_cursor = "yes"
+user_interface = "alternative"
+follow_now_playing_lyrics = "yes"
+locked_screen_width_part = "60"
+display_bitrate = "yes"
+external_editor = "nano"
+use_console_editor = "no"
+mpd_host = "127.0.0.1"
+mpd_port = "6601"
+mouse_list_scroll_whole_page = "yes"
+lines_scrolled = "1"
+enable_window_title = "yes"
+song_columns_list_format = "(25)[204]{a} (40)[205]{f} (30)[206]{b} (7f)[207]{l}"
+
+
+colors_enabled = yes
+#
+empty_tag_color = 218
+#
+header_window_color = 225
+#
+volume_color = 204
+#
+state_line_color = 223
+#
+state_flags_color = 218
+#
+main_window_color = 218
+
+main_window_highlight_color = 205
+active_column_color = 225
+#
+color1 = 204
+#
+color2 = 204
+#
+progressbar_color = black
+#
+progressbar_elapsed_color = 204
+#
+statusbar_color = 218
+#
+alternative_ui_separator_color = 218
+#
+window_border_color = 218
+#
+active_window_border = 218
+#
